@@ -69,13 +69,13 @@ The framework also handles terminal resize detection and re-renders all componen
 Compile:
 
 ```bash
-javac -cp "lib/jna/jna.jar;lib/jna/jnaplatform.jar;lib/jline/jline-console.jar;lib/jline/jlinereader.jar;lib/jline/jline-style.jar;lib/jline/jline-terminaljansi.jar;lib/jline/jline-terminal-jna.jar;lib/jline/jlineterminal.jar;lib/jline/jline.jar;lib/apachecommonsmath/commonsmath3.jar" -d bin -sourcepath src src/App.jav
+javac -cp "lib/jna/jna.jar:lib/jna/jna-platform.jar:lib/jline/jline-console.jar:lib/jline/jline-reader.jar:lib/jline/jline-style.jar:lib/jline/jline-terminal-jansi.jar:lib/jline/jline-terminal-jna.jar:lib/jline/jline-terminal.jar:lib/jline/jline.jar:lib/apachecommonsmath/commons-math3.jar" -d bin -sourcepath src src/App.java
 ```
 
 Run:
 
 ```bash
-java -cp "bin;lib/jna/jna.jar;lib/jna/jnaplatform.jar;lib/jline/jline-console.jar;lib/jline/jlinereader.jar;lib/jline/jline-style.jar;lib/jline/jline-terminaljansi.jar;lib/jline/jline-terminal-jna.jar;lib/jline/jlineterminal.jar;lib/jline/jline.jar;lib/apachecommonsmath/commonsmath3.jar" App
+java -cp "bin:lib/jna/jna.jar:lib/jna/jna-platform.jar:lib/jline/jline-console.jar:lib/jline/jline-reader.jar:lib/jline/jline-style.jar:lib/jline/jline-terminal-jansi.jar:lib/jline/jline-terminal-jna.jar:lib/jline/jline-terminal.jar:lib/jline/jline.jar:lib/apachecommonsmath/commons-math3.jar" App
 ```
 
 > **Note:** On Windows, replace `:` with `;` in the classpath separator.
